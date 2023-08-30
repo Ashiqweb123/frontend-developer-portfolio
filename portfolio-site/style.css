@@ -10,9 +10,22 @@ body{
 {
     border-radius: 5px;
     background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    padding:18px 30px;
+    font-weight: 700;
+    color: var(--white-color, #FFF);
 }
+.header{
+    background: #FFF8F3;
+}
+
 nav{
-    display: flex;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin: 0 200px;
+    
 }
 .nav-title
 {
@@ -25,13 +38,30 @@ font-weight: 800;
 
 nav>ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
 }
 nav li{
     list-style: none;
-    margin-right: 10px;
+    margin:10px 20px;
+    color:#474747;
 }
 
 nav a
 {
     text-decoration: none;
+}
+
+/* banner style here */
+
+.banner
+{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner .profile-pic
+{
+    width:500px;
 }
