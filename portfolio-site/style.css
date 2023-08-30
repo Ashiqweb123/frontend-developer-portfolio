@@ -30,8 +30,8 @@ body {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+    font-weight: 300;
+
 }
 
 /* common-share-style */
@@ -169,15 +169,40 @@ main section {
     font-weight: 700;
 }
 
-.resume-container
-{
+.resume-container {
     display: flex;
-    gap:50px;
-    
+    gap: 50px;
+
 }
 
-.download-cv
-{
+.download-cv {
     text-align: center;
     margin-top: 20px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    gap: 80px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 100px 170px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-links a
+{
+    margin-left: 24px;
+}
+.contact input[type=text] ,.contact input[type=email],textarea{
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 30px;
+    width:100%;
+    background:  #FFF;
+    
 }
